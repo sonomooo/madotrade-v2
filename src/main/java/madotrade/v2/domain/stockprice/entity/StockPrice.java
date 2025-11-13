@@ -1,0 +1,22 @@
+package madotrade.v2.domain.stockprice.entity;
+
+import jakarta.persistence.Entity;
+import jakarta.persistence.FetchType;
+import jakarta.persistence.JoinColumn;
+import jakarta.persistence.ManyToOne;
+import lombok.Getter;
+import madotrade.v2.domain.stock.Stock;
+
+@Entity
+@Getter
+public class StockPrice {
+
+    @JoinColumn(name = "stocks_id",nullable = false)
+    @ManyToOne(fetch = FetchType.LAZY)
+    Stock stock;
+
+    Long quantity;
+
+    int price;
+
+}
