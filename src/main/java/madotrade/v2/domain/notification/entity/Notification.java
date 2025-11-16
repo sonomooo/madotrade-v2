@@ -19,6 +19,18 @@ public class Notification {
 
     String identify;
 
-    String isValid;
+    boolean isValid;
+
+    public Notification(String identify, boolean isValid, NotificationType notificationType, User user) {
+        this.identify = identify;
+        this.isValid = isValid;
+        this.notificationType = notificationType;
+        this.user = user;
+    }
+
+    public static Notification of(String identify, boolean isValid, NotificationType notificationType, User user){
+
+        return new Notification(identify,isValid,notificationType,user);
+    }
 
 }

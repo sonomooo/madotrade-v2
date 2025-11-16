@@ -53,7 +53,7 @@ public class NewsController {
     @DeleteMapping
     public ResponseEntity<ApiResponse<Void>> deleteNews(@PathVariable Long newsId){
         newsService.deleteNews(newsId);
-        
+
         return ApiResponse.noContent();
     }
 
