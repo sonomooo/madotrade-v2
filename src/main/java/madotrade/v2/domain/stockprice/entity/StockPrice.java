@@ -20,4 +20,14 @@ public class StockPrice extends BaseIdEntity {
 
     int price;
 
+    public StockPrice(int price, Long quantity, Stock stock) {
+        this.price = price;
+        this.quantity = quantity;
+        this.stock = stock;
+    }
+
+    public static StockPrice of(int price, Long quantity, Stock stock){
+
+        return new StockPrice(price,quantity,stock);
+    }
 }
