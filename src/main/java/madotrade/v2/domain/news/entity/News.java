@@ -5,12 +5,13 @@ import jakarta.persistence.Entity;
 import jakarta.persistence.EnumType;
 import jakarta.persistence.Enumerated;
 import lombok.Getter;
+import madotrade.v2.common.entity.BaseIdEntity;
 import madotrade.v2.domain.news.enums.NewsType;
 import madotrade.v2.domain.news.enums.Race;
 
 @Entity
 @Getter
-public class News {
+public class News extends BaseIdEntity {
 
     String title;
 

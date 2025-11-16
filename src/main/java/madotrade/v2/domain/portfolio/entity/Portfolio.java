@@ -5,12 +5,13 @@ import jakarta.persistence.FetchType;
 import jakarta.persistence.JoinColumn;
 import jakarta.persistence.ManyToOne;
 import lombok.Getter;
+import madotrade.v2.common.entity.BaseIdEntity;
 import madotrade.v2.domain.stock.Stock;
 import madotrade.v2.domain.user.entity.User;
 
 @Getter
 @Entity
-public class Portfolio {
+public class Portfolio extends BaseIdEntity {
 
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "user_id", nullable = false)

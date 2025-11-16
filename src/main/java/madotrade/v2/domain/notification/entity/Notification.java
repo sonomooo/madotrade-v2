@@ -2,12 +2,13 @@ package madotrade.v2.domain.notification.entity;
 
 import jakarta.persistence.*;
 import lombok.Getter;
+import madotrade.v2.common.entity.BaseIdEntity;
 import madotrade.v2.domain.notification.enums.NotificationType;
 import madotrade.v2.domain.user.entity.User;
 
 @Getter
 @Entity
-public class Notification {
+public class Notification extends BaseIdEntity {
 
     @JoinColumn(name = "user_id",nullable = false)
     @ManyToOne(fetch = FetchType.LAZY)

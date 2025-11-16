@@ -2,13 +2,14 @@ package madotrade.v2.domain.stockInfo.entity;
 
 import jakarta.persistence.*;
 import lombok.Getter;
+import madotrade.v2.common.entity.BaseIdEntity;
 import madotrade.v2.domain.news.enums.Race;
 import madotrade.v2.domain.stock.Stock;
 import madotrade.v2.domain.stockInfo.enums.Field;
 
 @Entity
 @Getter
-public class StockInfo {
+public class StockInfo extends BaseIdEntity {
 
     String name;
 

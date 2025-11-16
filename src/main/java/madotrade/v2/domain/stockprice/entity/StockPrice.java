@@ -5,11 +5,12 @@ import jakarta.persistence.FetchType;
 import jakarta.persistence.JoinColumn;
 import jakarta.persistence.ManyToOne;
 import lombok.Getter;
+import madotrade.v2.common.entity.BaseIdEntity;
 import madotrade.v2.domain.stock.Stock;
 
 @Entity
 @Getter
-public class StockPrice {
+public class StockPrice extends BaseIdEntity {
 
     @JoinColumn(name = "stocks_id",nullable = false)
     @ManyToOne(fetch = FetchType.LAZY)
