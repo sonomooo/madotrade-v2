@@ -21,6 +21,8 @@ public class User extends BaseIdEntity {
 
     Long balance;
 
+    protected User() {}
+
     public User(Long balance, String email, String password, UserRole role) {
         this.balance = balance;
         this.email = email;
