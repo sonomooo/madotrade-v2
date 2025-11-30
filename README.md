@@ -19,12 +19,18 @@ https://www.erdcloud.com/d/qfLmCHguwWJdLGazo
 
 언어 및 프레임워크
 
-<img width="91" height="20" alt="image" src="https://github.com/user-attachments/assets/d09a2a26-c67a-44e1-b66b-f24a3a2321fb" /> 
-<img width="89" height="20" alt="image" src="https://github.com/user-attachments/assets/63242709-8e43-40d2-abe2-ff66982e3543" />
+<img src="https://img.shields.io/badge/java-007396?style=for-the-badge&logo=java&logoColor=white">
+<img src="https://img.shields.io/badge/spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white">
+<img src="https://img.shields.io/badge/springboot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white">
+<img src="https://img.shields.io/badge/gradle-02303A?style=for-the-badge&logo=gradle&logoColor=white">
+<img width="640" height="640" alt="image" src="https://github.com/user-attachments/assets/98015449-0e4b-4c83-85e6-d597cac972a2" />
+
 
 데이터베이스 
+<img src="https://img.shields.io/badge/mariaDB-003545?style=for-the-badge&logo=mariaDB&logoColor=white">
 
 협업 및 도구
+<img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white">
 
 # 2. 기능 설계
 
