@@ -32,7 +32,7 @@ https://www.erdcloud.com/d/qfLmCHguwWJdLGazo
 협업 및 도구
 
 <img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white">
-<img src="https://img.shields.io/badge/docker-#2496ED?style=for-the-badge&logoColor=white">
+<img src="https://img.shields.io/badge/docker-2496ED?style=for-the-badge&logoColor=white">
 
 # 2. 기능 설계
 
