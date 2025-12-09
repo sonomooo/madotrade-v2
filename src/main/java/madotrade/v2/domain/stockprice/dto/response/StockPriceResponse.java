@@ -1,7 +1,7 @@
 package madotrade.v2.domain.stockprice.dto.response;
 
 import lombok.Builder;
-import madotrade.v2.domain.stock.Stock;
+import madotrade.v2.domain.stock.entity.Stock;
 import madotrade.v2.domain.stockprice.entity.StockPrice;
 
 @Builder

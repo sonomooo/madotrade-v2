@@ -2,7 +2,7 @@ package madotrade.v2.domain.stockInfo.dto.response;
 
 import lombok.Builder;
 import madotrade.v2.domain.news.enums.Race;
-import madotrade.v2.domain.stock.Stock;
+import madotrade.v2.domain.stock.entity.Stock;
 import madotrade.v2.domain.stockInfo.entity.StockInfo;
 import madotrade.v2.domain.stockInfo.enums.Field;
 

@@ -1,7 +1,7 @@
 package madotrade.v2.domain.stockInfo.dto.request;
 
 import madotrade.v2.domain.news.enums.Race;
-import madotrade.v2.domain.stock.Stock;
+import madotrade.v2.domain.stock.entity.Stock;
 import madotrade.v2.domain.stockInfo.enums.Field;
 
 public record StockInfoRequest (String name,

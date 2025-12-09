@@ -6,7 +6,7 @@ import jakarta.persistence.JoinColumn;
 import jakarta.persistence.ManyToOne;
 import lombok.Getter;
 import madotrade.v2.common.entity.BaseIdEntity;
-import madotrade.v2.domain.stock.Stock;
+import madotrade.v2.domain.stock.entity.Stock;
 import madotrade.v2.domain.user.entity.User;
 
 @Getter
